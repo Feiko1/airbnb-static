@@ -12,10 +12,10 @@
 
 // Backgrounds
 .bg-text {
-  background: #4a4a4a;
+  background: $gray;
 }
 .bg-email {
-  background: #aeaeae;
+  background: $gray;
 }
 .bg-twitter {
   background: #00a3e1;
@@ -26,10 +26,10 @@
 
 body {
   margin: 0;
-  font-family: Open-sans, sans-serif;
+  font-family: $base-font;
 }
 h1, h2, h3 {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: $header-font;
 }
 h2 {
   font-size: 28px;
@@ -39,27 +39,28 @@ h2 {
 }
 
 p {
-  color: #898D8D;
-  font-family: open-sans;
-  font-size: 16px;
+  color: $gray-light;
+  font-family: $base-font;
+  font-size: $base-size;
 }
 
 h3 {
-  color: #252626;
-  font-family: open-sans;
+  color: $gray-darker;
 }
 
 .text {
   font-size: 4vw;
-  color: white;
+  color: $white;
 }
 
 .text a {
   /*font-size: 3vw;*/
-  color: white;
+  color: $white;
 }
 
 .home-submit-btn {
   background-color: #428BCA;
-  color: white;
+  color: $white;
 }
+
+// ask Jad -> What should i set to base-font/size ... Self made classes as well? also if used rarely?
