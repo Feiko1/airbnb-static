@@ -1,0 +1,19 @@
+/* Footer design */
+.footer {
+  color: white;
+  background-color: #434545;
+  padding: 30px;
+}
+.footer p {
+  color: white;
+}
+
+a{
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+a:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
